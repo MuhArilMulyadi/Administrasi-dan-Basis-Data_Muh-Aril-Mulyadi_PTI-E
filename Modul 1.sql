@@ -1,7 +1,7 @@
--- Nama : Muh Aril Mulyadi
--- Nim	: 24241164
+-- Nama : Muh Aril Mulyadi 
+-- NIM 	: 24241164
 -- Kelas : PTI E
--- Modul : 2
+-- Modul : 1
 
 -- membuat database
 CREATE DATABASE kelas_e_mart;
@@ -16,6 +16,8 @@ no_urut INT NOT NULL,
 nama_pelanggan VARCHAR(100) NOT NULL,
 alamat VARCHAR(200)
 );
+
+
 
 -- input data ke table
 INSERT INTO pelanggan(
@@ -92,7 +94,7 @@ nama_produk varchar(20),
 harga float
 );
 
-INSERT INTO produk (kode_produk, kategori_produk, nama_produk, harga) 
+INSERT INTO produk (kode_produk, kategori_produk, nama_produk, harga)
 VALUES 
 ("prod-01", "Alat Tulis Kantor", "Kotak Pensil DQLab", 62500.0),
 ("prod-02", "Aksesoris Komputer", "Flashdisk DQLab 64 GB", 55000.0),
@@ -118,4 +120,4 @@ VALUES
 ("prod-09", "9", "Alat Tulis Kantor", "Buku Planner Agenda DQLab", 92000.0),
 ("prod-10", "10", "Alat Tulis Kantor", "Sticky Notes DQLab 500 sheets", 55000.0);
 
-select * from produk;
+select * from pelanggan;
